@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Dr. P. Muthu Austeria - Computational Chemistry Research</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <div class="title">
+                    <h1>Computational Chemistry Research Group</h1>
+                    <p class="subtitle">Dr. P. Muthu Austeria</p>
+                </div>
+                <div class="university-logo">
+                    <img src="https://www.jainuniversity.ac.in/Images/logo.png" alt="Jain University" class="logo">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="updates.html">Updates</a></li>
+                <li><a href="positions.html">Open Positions</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact page-section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Contact Information</h1>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="contact-intro">
+                <p>
+                    I welcome inquiries from students, researchers, and collaborators interested in 
+                    computational chemistry. Whether you're looking to join our research group, 
+                    explore collaboration opportunities, or have questions about our work, 
+                    please don't hesitate to reach out.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email:</strong>
+                            <a href="mailto:muthu.p@jainuniversity.ac.in">muthu.p@jainuniversity.ac.in</a>
+                            <p class="contact-note">Primary contact for all inquiries</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Phone:</strong>
+                            <span>+91 80 2750 6270</span>
+                            <p class="contact-note">Available during office hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Office Address:</strong>
+                            <span>
+                                Department of Chemistry<br>
+                                Center for Nanoscience & Molecular Science (CNMS)<br>
+                                Jain University<br>
+                                Bangalore, Karnataka, India
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <strong>Google Scholar:</strong>
+                            <a href="https://scholar.google.com/citations?user=vYwSPuEAAAAJ&hl=en" target="_blank">
+                                View Research Profile
+                            </a>
+                            <p class="contact-note">Complete publication list and citations</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-university"></i>
+                        <div>
+                            <strong>University Profile:</strong>
+                            <a href="https://cnms.jainuniversity.ac.in/muthu-austeria.htm" target="_blank">
+                                Jain University Faculty Page
+                            </a>
+                            <p class="contact-note">Official university profile and information</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send a Message</h2>
+                    <p class="form-description">
+                        Use this form to send me a message directly. I typically respond to inquiries 
+                        within 1-2 business days.
+                    </p>
+                    
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" required placeholder="Your full name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" required placeholder="your.email@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="affiliation">Institution/Affiliation</label>
+                            <input type="text" id="affiliation" placeholder="Your university, company, or organization">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="Research Collaboration">Research Collaboration</option>
+                                <option value="PhD Application">PhD Application Inquiry</option>
+                                <option value="Master's Research">Master's Research Project</option>
+                                <option value="Undergraduate Research">Undergraduate Research Opportunity</option>
+                                <option value="Postdoc Position">Postdoc Position Inquiry</option>
+                                <option value="Academic Question">Academic/Research Question</option>
+                                <option value="Conference/Seminar">Conference/Seminar Invitation</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" required placeholder="Please provide details about your inquiry..." rows="6"></textarea>
+                        </div>
+                        
+                        <div class="form-note">
+                            <p><strong>Note:</strong> Fields marked with * are required. For research position inquiries, 
+                            please include your CV and a brief description of your research interests.</p>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Quick Contact Options -->
+            <div class="quick-contact">
+                <h2>Quick Contact Options</h2>
+                <div class="contact-options">
+                    <div class="contact-option">
+                        <i class="fas fa-user-graduate"></i>
+                        <h3>Prospective Students</h3>
+                        <p>Interested in joining our research group? Visit our open positions page first, then contact me with your CV and research interests.</p>
+                        <a href="positions.html" class="btn btn-secondary">View Open Positions</a>
+                    </div>
+                    
+                    <div class="contact-option">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Research Collaboration</h3>
+                        <p>Looking to collaborate on computational chemistry research? I'm open to discussing joint projects and research partnerships.</p>
+                        <a href="research.html" class="btn btn-secondary">View Research Areas</a>
+                    </div>
+                    
+                    <div class="contact-option">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>Speaking Engagements</h3>
+                        <p>Interested in inviting me for seminars, conferences, or workshops? Please contact me with event details and timeline.</p>
+                        <a href="mailto:muthu.p@jainuniversity.ac.in" class="btn btn-secondary">Email Directly</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Office Hours -->
+            <div class="office-hours">
+                <h2>Office Hours & Availability</h2>
+                <div class="hours-content">
+                    <p>
+                        I maintain regular office hours for student consultations and meetings. 
+                        For scheduled appointments outside these hours, please contact me in advance.
+                    </p>
+                    <div class="hours-info">
+                        <div class="hours-item">
+                            <h3>Student Office Hours</h3>
+                            <p>Monday, Wednesday, Friday: 2:00 PM - 4:00 PM</p>
+                            <p class="hours-note">Open for student questions and research discussions</p>
+                        </div>
+                        <div class="hours-item">
+                            <h3>Research Meetings</h3>
+                            <p>Tuesday, Thursday: 10:00 AM - 12:00 PM</p>
+                            <p class="hours-note">Group meetings and individual research consultations</p>
+                        </div>
+                        <div class="hours-item">
+                            <h3>External Meetings</h3>
+                            <p>By appointment</p>
+                            <p class="hours-note">Collaborations, visitors, and formal meetings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Dr. P. Muthu Austeria. All rights reserved.</p>
+                    <p>Computational Chemistry Research Group, Jain University, Bangalore</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.jainuniversity.ac.in/" target="_blank">Jain University</a>
+                    <a href="https://cnms.jainuniversity.ac.in/" target="_blank">CNMS Department</a>
+                    <a href="https://scholar.google.com/citations?user=vYwSPuEAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

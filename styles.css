@@ -589,22 +589,35 @@ select:focus {
 }
 
 .contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
     gap: 40px;
 }
 
-.contact-info h3,
-.contact-form h3 {
+.contact-info-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.contact-info h2,
+.contact-form h2,
+.quick-contact h2,
+.office-hours h2 {
     color: #1e3c72;
     margin-bottom: 25px;
-    font-size: 1.3rem;
+    text-align: center;
 }
 
 .contact-item {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 20px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    margin-bottom: 0;
 }
 
 .contact-item i {
@@ -1713,14 +1726,20 @@ select:focus {
 }
 
 .hours-content {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
+}
+
+.hours-content > p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
 }
 
 .hours-info {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
     margin-top: 30px;
 }
 
